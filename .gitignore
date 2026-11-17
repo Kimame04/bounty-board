@@ -35,3 +35,7 @@ frontend/.env.*.local
 .vscode/
 *.swp
 *.swo
+
+# AI Agent Guides
+AGENTS.md
+agents.md
