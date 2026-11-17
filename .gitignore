@@ -1,0 +1,37 @@
+# Binaries & Build Output
+dist/
+build/
+bin/
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+backend/bin/
+backend/gossip-server
+bounty-board-app
+backend/internal/web/dist/
+
+# Go dependency and cache
+vendor/
+
+# Database files
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+data/*.db
+
+# Node & Frontend
+node_modules/
+.npm
+frontend/dist/
+frontend/.env.local
+frontend/.env.*.local
+
+# Operating System & IDE
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*.swo
